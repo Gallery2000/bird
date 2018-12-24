@@ -1,0 +1,6 @@
+BackGround继承Sprite
+Main拿到BackGround添加到DataStroe中
+DataStroe有个getInstance方法，使得所有modeule可以使用DataStroe里的data
+DataStroe拿到DataStroe的数据调用new BackGround的draw方法 渲染图片
+
+
